@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f6298fc-9dc8-4fe7-802a-9ae58fa30010" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/malcolmbaatjies/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="5f6298fc-9dc8-4fe7-802a-9ae58fa30010" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -195,7 +186,7 @@
       <workItem from="1709633501708" duration="811000" />
       <workItem from="1709658720353" duration="99000" />
       <workItem from="1709664394421" duration="8565000" />
-      <workItem from="1709716271989" duration="2911000" />
+      <workItem from="1709716271989" duration="3332000" />
     </task>
     <servers />
   </component>

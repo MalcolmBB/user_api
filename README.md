@@ -10,8 +10,8 @@ This is a Java Springboot application that utilizes Docker to run as a container
 
 1. Clone this repository:
    ```
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/MalcolmBB/user_api.git
+   cd user_api
    ```
 
 2. Build and run the application with Docker:
