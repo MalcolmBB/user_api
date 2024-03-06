@@ -1,29 +1,19 @@
 package com.malcolmbaatjies;
 
-import lombok.SneakyThrows;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-import org.springframework.web.bind.annotation.*;
 
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
-@RestController
-public class Main
+/**
+ * App
+ * <br><br>
+ * This class is used to start the Spring Boot application.
+ * <br><br>
+ * This class is annotated with Spring's {@link org.springframework.boot.autoconfigure.SpringBootApplication} to indicate that it is the main class of the Spring Boot application.
+ */
+@SpringBootApplication
+public class App
 {
 	public static void main(String[] args) {
-		SpringApplication.run(Main.class, args);
-	}
-
-	@GetMapping("/")
-	public String home() {
-		return "Welcome to Malcolm's Spring Boot Application";
-	}
-
-	@SneakyThrows
-	@RequestMapping(value = "{*path}")
-	@ResponseBody
-	public String handleAll(@PathVariable(value = "path") String path)
-	{
-		throw new Exception("Invalid Path provided: [" + path + "].");
+		SpringApplication.run(App.class, args);
 	}
 }
